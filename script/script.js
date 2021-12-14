@@ -16,14 +16,16 @@ const game = (event) => {
   const vcol = vazio.cellIndex;
   const vrow = vazio.parentElement.rowIndex;
 
-  if ( (ccol - vcol === -1 || ccol - vcol === 1) && crow === vrow || 
-       (crow - vrow === -1 || crow - vrow === 1) && ccol === vcol) { 
-
+  if ( (ccol - vcol === -1 || 
+        ccol - vcol === 1) && 
+        crow === vrow || 
+       (crow - vrow === -1 || 
+       crow - vrow === 1) && 
+       ccol === vcol) { 
     vazio.innerText = clicado.innerText;
     clicado.innerText = '';
     clicado.classList.add('empty');
     vazio.classList.remove('empty');
-
   }
 
   const currentOrder = document.querySelectorAll('td');
