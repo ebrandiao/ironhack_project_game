@@ -1,13 +1,27 @@
-const elem = document.querySelector('#show-hint');
-const iter = 'click';
+const button = document.querySelector('#show-hint');
+const caixas = document.querySelectorAll('td');
+const timer = document.querySelector('#timer');
+const youLose = document.querySelector('#youLose');
+let intervalId = null;
+let segundos = 0;
 
 const showHint = () => {
   const hint = document.querySelector('.hint');
   hint.classList.toggle('active');
+  startTime();
 }
-elem.addEventListener(iter, showHint);
-
-const caixas = document.querySelectorAll('td');
+const startTime = () => {
+  intervalId = setInterval(() => {
+    segundos += 1;
+    if (segundos < 6) {
+      timer.innerText = segundos;
+    } else {
+      youLose.innerText = "YOU LOSE!!!";
+      clearInterval(showHint);
+    }
+  }, 1000)
+}
+button.addEventListener('click', showHint);
 
 const Eventos = (event) => {
   const caixaClicada = event.currentTarget;
@@ -25,13 +39,14 @@ const Eventos = (event) => {
 
   if (sameRow && adjCol || sameCol && adjRow){
     vazio.classList.remove('empty');
-    vazio.innerText = caixaClicada.innerText;
+    vazio.innerHTML = caixaClicada.innerHTML;
     caixaClicada.classList.add('empty');
-    caixaClicada.innerText = '';
+    caixaClicada.innerHTML = '';
   }
 
 }
 
 caixas.forEach((caixa) => {
-  caixa.addEventListener(iter, Eventos)
+  caixa.addEventListener('click', Eventos)
 })
+
