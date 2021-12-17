@@ -17,10 +17,10 @@ const startTime = () => {
       timer.innerText = segundos;
     } else {
       youLose.innerText = "YOU LOSE!!!";
-      clearInterval(showHint);
     }
   }, 1000)
 }
+
 button.addEventListener('click', showHint);
 
 const Eventos = (event) => {
