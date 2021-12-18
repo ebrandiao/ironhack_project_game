@@ -26,9 +26,13 @@ SE VOCÊ CHEGOU ATÉ AQUI
 Muito obrigado pela atenção!!
 
 SOBRE O AUTOR
-Eduardo Brandiao
+Eduardo Brandiao, casado, residente no estado do Rio de Janeiro. Atualmente trabalha como Consultor SAP em processos de melhoria contínua na Indústria de Petróleo e Gás, com foco em eficiência operacional e redução de custo. 
 
-eduardo.brandiao.adm@gmail.com
+Formado em Administração de empresas e em Análise e desenvolvimento de sistemas, é um entusiasta em sistemas, especializou-se em Formação SAP, com academias nos módulos de MM, ABAP, BASIS e PM. Formado no Bootcamp fulltime de Fullstack Web Development pela LEWAGON, onde cursou os batch #690 e #766. Atualmente cursando o Bootcamp de Fullstack Web development na Ironhack, especializando-se ainda mais nas stacks de back-end e front-end.
+
+e-mail: eduardo.brandiao.adm@gmail.com
+
+(27) 99253-9989.
 
 linked-in: https://www.linkedin.com/in/eduardobrandiao/
 
