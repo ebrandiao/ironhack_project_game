@@ -39,4 +39,4 @@ e-mail: eduardo.brandiao.adm@gmail.com
 
 linked-in: https://www.linkedin.com/in/eduardobrandiao/
 
-Profile GH: 
+Profile GH: https://ebrandiao.github.io/my_profile/
