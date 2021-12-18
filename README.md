@@ -2,8 +2,6 @@
 
 **Project game - module 01 # Ironhack**
 
-Eduardo R. Brandiao
-
 **Game memory**
 
 **O QUE É**
